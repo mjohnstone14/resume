@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the app correctly 1`] = `
+<div
+  className="App"
+>
+  <header>
+    Marwan Johnstone
+  </header>
+  <fragment>
+    <h2>
+      Education
+    </h2>
+    <fragment>
+      <h3>
+        University of Puget Sound
+      </h3>
+      <li>
+        August 2015 - May 2019
+      </li>
+    </fragment>
+    <fragment>
+      <h3>
+        DIS Denmark, Copenhagen
+      </h3>
+      <li>
+        August 2017 - May 2018
+      </li>
+    </fragment>
+  </fragment>
+  <fragment>
+    <h2>
+      Experience
+    </h2>
+    <fragment>
+      <h3>
+        Nordstrom, Seattle WA
+      </h3>
+      <h4>
+        August 2019 - Present
+      </h4>
+      <li>
+        Developed and continuously deployed an internal applications tool designed to process and inspect product returns in Nordstrom stores, inventory facilities, and fulfillment centers that would save ~$14.5M projected expenses for the company in 2020.
+      </li>
+      <li>
+        Developed front-end facing applications designed to work on a company-wide scale using React Hooks, Sass, and Java Spring API.
+      </li>
+      <li>
+        Maintained a Java Spring API running on Kubernetes, added and exposed endpoints that filtered and managed data from DynamoDB and other calls to company services.
+      </li>
+      <li>
+        Reviewed project user interface code, incorporated automated testing with Jest, logging, and refactored and reimplemented parts of the React UI.
+      </li>
+      <li>
+        Utilized Sass along with React Hooks to design interactive UIs, used Zeplin overlay to review and match the UI to company requirements
+      </li>
+      <li>
+        Created, managed, and resolved issues in GitLab and Jira boards to track progress with the team, as well as communicate goals with product and project management.
+      </li>
+    </fragment>
+  </fragment>
+  <fragment>
+    <h2>
+      Projects
+    </h2>
+    <li>
+      <a
+        href="https://linkedin.com/in/mjohnstone14"
+      >
+        My LinkedIn
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://mjohnstone.itch.io/red-blood-cell-shooter"
+      >
+        Blood Cell Shooter - Unity Video Game Project
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://mjohnstone.itch.io/mr-bluesky"
+      >
+        Mr Blue Sky - 2D Unity Game Project
+      </a>
+    </li>
+  </fragment>
+  <fragment>
+    <h2>
+      Skills
+    </h2>
+    <fragment>
+      <h3>
+        Languages
+      </h3>
+      <li>
+        English - Native
+      </li>
+      <li>
+        Arabic - Native
+      </li>
+      <li>
+        Danish - Beginner
+      </li>
+      <h3>
+        Frameworks and Tools
+      </h3>
+      <li>
+        AWS
+      </li>
+      <li>
+        GitLab, GitHub
+      </li>
+      <li>
+        Swagger UI
+      </li>
+      <li>
+        SpringBoot
+      </li>
+      <li>
+        Jest
+      </li>
+      <li>
+        Kubernetes
+      </li>
+      <li>
+        Maven/Gradle
+      </li>
+      <li>
+        Kafka Streams
+      </li>
+      <li>
+        Unity
+      </li>
+      <li>
+        Docker
+      </li>
+      <h3>
+        Programming Languages
+      </h3>
+      <li>
+        JavaScript
+      </li>
+      <li>
+        React
+      </li>
+      <li>
+        Angular
+      </li>
+      <li>
+        Node.js
+      </li>
+      <li>
+        Java
+      </li>
+      <li>
+        Python
+      </li>
+      <li>
+        C#
+      </li>
+      <li>
+        Sass
+      </li>
+      <li>
+        SQL
+      </li>
+    </fragment>
+  </fragment>
+</div>
+`;
