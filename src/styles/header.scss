@@ -1,4 +1,24 @@
+@import "App.scss";
+
 .avatar {
-    height: 10%;
-    width: 10%;
+    height: 20%;
+    width: 20%;
+    display: inline-flex;
+    border: 2px solid black;
+    float: left;
+    border-radius: 15%;
+    margin: 1%;
+}
+
+.title { 
+    display: inline-flex;
+    font-family: $sans-serif;
+    font-weight: $bold;
+    font-size: 60pt;
+    height: 60%;
+    width: 50%;
+    transform: translateY(-40%);
+    justify-content: center;
+    border: 2px solid lightgray;
+    border-radius: 26px;
 }

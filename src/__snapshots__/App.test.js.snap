@@ -4,80 +4,16 @@ exports[`renders the app correctly 1`] = `
 <div
   className="App"
 >
-  <div
-    className="makeStyles-root-1"
-  >
-    <div
-      className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
+  <div>
+    <img
+      className="avatar"
+      src="me.png"
+    />
+    <h2
+      className="title"
     >
-      <div
-        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
-      >
-        <div
-          className="MuiAvatar-root MuiAvatar-rounded makeStyles-avatar-2"
-        >
-          <img
-            alt="Marwan Johnstone"
-            className="MuiAvatar-img"
-            src="me.png"
-          />
-        </div>
-      </div>
-      <div
-        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
-      >
-        <p
-          className="makeStyles-title-3"
-        >
-          Marwan Johnstone
-        </p>
-      </div>
-      <div
-        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3"
-      >
-        <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
-        >
-          xs=3
-        </div>
-      </div>
-      <div
-        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3"
-      >
-        <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
-        >
-          xs=3
-        </div>
-      </div>
-      <div
-        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
-      >
-        <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
-        >
-          xs=6
-        </div>
-      </div>
-      <div
-        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3"
-      >
-        <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
-        >
-          xs=3
-        </div>
-      </div>
-      <div
-        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3"
-      >
-        <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
-        >
-          xs=3
-        </div>
-      </div>
-    </div>
+      Marwan Johnstone
+    </h2>
   </div>
   <fragment>
     <h2>
