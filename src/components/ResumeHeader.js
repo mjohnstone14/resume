@@ -5,7 +5,7 @@ import '../styles/header.scss';
 const ResumeHeader = () => {
     return (
       <div>
-        <img className="avatar" src={photo} />
+        <img alt="Marwan Johnstone" className="avatar" src={photo} />
         <h2 className="title">Marwan Johnstone</h2>
       </div>
     )

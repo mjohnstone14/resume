@@ -6,6 +6,7 @@ exports[`renders the app correctly 1`] = `
 >
   <div>
     <img
+      alt="Marwan Johnstone"
       className="avatar"
       src="me.png"
     />

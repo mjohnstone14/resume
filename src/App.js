@@ -5,7 +5,7 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
-import './Styles/App.scss';
+import './styles/App.scss';
 
 function App() {
   const THEME = createMuiTheme({
