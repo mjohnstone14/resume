@@ -7,18 +7,14 @@ import Skills from './components/Skills';
 import './styles/App.scss';
 
 function App() {
-
   return (
-  
-    <div className="App">
-      <ResumeHeader className="App-header"/>
+    <div className="body">
+      <ResumeHeader/>
       <Education/>
       <Experience/>
       <Projects/>
       <Skills/>
     </div>
-
-    
   );
 }
 

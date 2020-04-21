@@ -2,7 +2,7 @@
 
 exports[`renders the app correctly 1`] = `
 <div
-  className="App"
+  className="body"
 >
   <div>
     <img
