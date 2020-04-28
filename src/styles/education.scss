@@ -1,0 +1,39 @@
+@import "App.scss";
+
+.educationBody {
+    display: inline-block; 
+    width: 18%;
+    border: 2px solid black;
+    border-radius: 26px;
+    transform: translateY(-38%);
+    background: white;
+    color: black;
+    box-shadow: 0px 6px 10px rgba(0,0,0,0.7);
+}
+
+.edTitle {
+    display: inline-flex;
+    color: black;
+    margin: 2%;
+}   
+
+.edDescriptionLabel {
+    display: inline-block;
+    color: #2F4F4F;
+    width: 100%;
+    margin: 3%;
+}
+
+.edDescription {
+    display: inline-block;
+    margin: 3%;
+    font-style: italic;
+    list-style: none;
+    margin-right: 10px;
+    vertical-align: middle;
+    color: 	#708090;
+}
+
+.ul {
+    list-style: none;
+}

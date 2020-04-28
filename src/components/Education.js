@@ -1,15 +1,21 @@
 import React from 'react';
+import '../styles/education.scss'
+
 const Education = () => {
     return (
-        <fragment>
-            <h2>Education</h2>
+        <fragment className="educationBody">
+            <h2 className="edTitle">Education</h2>
             <fragment>
-                <h3>University of Puget Sound</h3>
-                <li>August 2015 - May 2019</li>
+                <a href="https://www.pugetsound.edu/">
+                    <h3 className="edDescriptionLabel">University of Puget Sound</h3>
+                </a>      
+                <li className="edDescription">August 2015 - May 2019</li>
             </fragment>
             <fragment>
-                <h3>DIS Denmark, Copenhagen</h3>
-                <li>August 2017 - May 2018</li>
+                <a href="https://disabroad.org/copenhagen/">
+                    <h3 className="edDescriptionLabel">DIS Denmark, Copenhagen</h3>
+                </a> 
+                <li className="edDescription">August 2017 - May 2018</li>
             </fragment>     
         </fragment>
     )
