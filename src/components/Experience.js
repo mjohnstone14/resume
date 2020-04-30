@@ -1,6 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Accordion from './Accordion';
+import Card from './Card';
+import '../styles/experience.scss';
+
+const content = [
+  {
+      question: 'Hello',
+      answer: 'rrrrrrr',
+      answer2: 'second content'
+  }
+];
 const Experience = () => {
+    const [activeEventKey, setActiveEventKey] = useState(0);
     return (
+        <fragment className="experience">
+        <Accordion activeEventKey={activeEventKey} onToggle={setActiveEventKey}>
+            {content.map(({ question, answer, answer2 }, index) => (
+                <Card key={index}>
+                    <Accordion.Toggle element={Card.Header} eventKey={index}>
+                        {question}
+                        {activeEventKey !== index && <span>v</span>}
+                        {activeEventKey === index && <span>^</span>}
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey={index} element={Card.Body}>
+                        <li>{answer}</li>
+                        <li>{answer}</li>
+                    </Accordion.Collapse>
+                </Card>
+            ))}
+        </Accordion>
         <fragment>
             <h2>Experience</h2>
             <fragment>
@@ -36,6 +64,7 @@ const Experience = () => {
                 </li>
             </fragment>
         
+        </fragment>
         </fragment>
     )
     
