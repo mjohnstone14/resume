@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import photo from '../images/me.png';
 import '../styles/header.scss';
 
 const ResumeHeader = () => {
     return (
-      <div>
-        <img alt="Marwan Johnstone" className="avatar" src={photo} />
-        <h2 className="title">Marwan Johnstone</h2>
-      </div>
+      <Fragment>
+          <img alt="Marwan Johnstone" className="avatar" src={photo} />
+          <h2 className="title">Marwan Johnstone</h2>
+      </Fragment>
+      
     )
 }
 

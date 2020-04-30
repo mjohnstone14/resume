@@ -2,9 +2,9 @@ import React from 'react'
 
 const Skills = () => {
     return (
-        <fragment>
+        <div>
             <h2>Skills</h2>
-            <fragment>
+            <div>
                 <h3>Languages</h3>
                 <li>English - Native</li>
                 <li>Arabic - Native</li>
@@ -30,8 +30,8 @@ const Skills = () => {
                 <li>C#</li>
                 <li>Sass</li>
                 <li>SQL</li>
-            </fragment>
-        </fragment>
+            </div>
+        </div>
     )
 }
 

@@ -4,19 +4,17 @@ exports[`renders the app correctly 1`] = `
 <div
   className="body"
 >
-  <div>
-    <img
-      alt="Marwan Johnstone"
-      className="avatar"
-      src="me.png"
-    />
-    <h2
-      className="title"
-    >
-      Marwan Johnstone
-    </h2>
-  </div>
-  <fragment
+  <img
+    alt="Marwan Johnstone"
+    className="avatar"
+    src="me.png"
+  />
+  <h2
+    className="title"
+  >
+    Marwan Johnstone
+  </h2>
+  <div
     className="educationBody"
   >
     <h2
@@ -24,7 +22,7 @@ exports[`renders the app correctly 1`] = `
     >
       Education
     </h2>
-    <fragment>
+    <div>
       <a
         href="https://www.pugetsound.edu/"
       >
@@ -39,8 +37,8 @@ exports[`renders the app correctly 1`] = `
       >
         August 2015 - May 2019
       </li>
-    </fragment>
-    <fragment>
+    </div>
+    <div>
       <a
         href="https://disabroad.org/copenhagen/"
       >
@@ -55,9 +53,9 @@ exports[`renders the app correctly 1`] = `
       >
         August 2017 - May 2018
       </li>
-    </fragment>
-  </fragment>
-  <fragment
+    </div>
+  </div>
+  <div
     className="experience"
   >
     <div>
@@ -68,7 +66,14 @@ exports[`renders the app correctly 1`] = `
           className="CardHeader"
           onClick={[Function]}
         >
-          Hello
+          <h4>
+            Nordstrom, Seattle WA
+            <span
+              className="tabDate"
+            >
+              August 2019 - Present
+            </span>
+          </h4>
           <span>
             ^
           </span>
@@ -77,47 +82,108 @@ exports[`renders the app correctly 1`] = `
           className="CardBody"
         >
           <li>
-            rrrrrrr
+            Developed and continuously deployed an internal applications tool designed to process and inspect product returns in Nordstrom stores, inventory facilities, and fulfillment centers that would save ~$14.5M projected expenses for the company in 2020.
           </li>
           <li>
-            rrrrrrr
+            Developed front-end facing applications designed to work on a company-wide scale using React Hooks, Sass, and Java Spring API
+          </li>
+          <li>
+            Maintained a Java Spring API running on Kubernetes, added and exposed endpoints that filtered and managed data from DynamoDB and other calls to company services.
+          </li>
+          <li>
+            Reviewed project user interface code, incorporated automated testing with Jest, logging, and refactored and reimplemented parts of the React UI.
+          </li>
+          <li>
+            Utilized Sass along with React Hooks to design interactive UIs, used Zeplin overlay to review and match the UI to company requirements
+          </li>
+          <li>
+            Created, managed, and resolved issues in GitLab and Jira boards to track progress with the team, as well as communicate goals with product and project management.
           </li>
         </div>
       </div>
+      <div
+        className="Card"
+      >
+        <div
+          className="CardHeader"
+          onClick={[Function]}
+        >
+          <h4>
+            Nordstrom, Seattle WA
+            <span
+              className="tabDate"
+            >
+              August 2019 - Present
+            </span>
+          </h4>
+          <span>
+            v
+          </span>
+        </div>
+      </div>
+      <div
+        className="Card"
+      >
+        <div
+          className="CardHeader"
+          onClick={[Function]}
+        >
+          <h4>
+            Nordstrom, Seattle WA
+            <span
+              className="tabDate"
+            >
+              August 2019 - Present
+            </span>
+          </h4>
+          <span>
+            v
+          </span>
+        </div>
+      </div>
+      <div
+        className="Card"
+      >
+        <div
+          className="CardHeader"
+          onClick={[Function]}
+        >
+          <h4>
+            Nordstrom, Seattle WA
+            <span
+              className="tabDate"
+            >
+              August 2019 - Present
+            </span>
+          </h4>
+          <span>
+            v
+          </span>
+        </div>
+      </div>
+      <div
+        className="Card"
+      >
+        <div
+          className="CardHeader"
+          onClick={[Function]}
+        >
+          <h4>
+            Nordstrom, Seattle WA
+            <span
+              className="tabDate"
+            >
+              August 2019 - Present
+            </span>
+          </h4>
+          <span>
+            v
+          </span>
+        </div>
+      </div>
     </div>
-    <fragment>
-      <h2>
-        Experience
-      </h2>
-      <fragment>
-        <h3>
-          Nordstrom, Seattle WA
-        </h3>
-        <h4>
-          August 2019 - Present
-        </h4>
-        <li>
-          Developed and continuously deployed an internal applications tool designed to process and inspect product returns in Nordstrom stores, inventory facilities, and fulfillment centers that would save ~$14.5M projected expenses for the company in 2020.
-        </li>
-        <li>
-          Developed front-end facing applications designed to work on a company-wide scale using React Hooks, Sass, and Java Spring API.
-        </li>
-        <li>
-          Maintained a Java Spring API running on Kubernetes, added and exposed endpoints that filtered and managed data from DynamoDB and other calls to company services.
-        </li>
-        <li>
-          Reviewed project user interface code, incorporated automated testing with Jest, logging, and refactored and reimplemented parts of the React UI.
-        </li>
-        <li>
-          Utilized Sass along with React Hooks to design interactive UIs, used Zeplin overlay to review and match the UI to company requirements
-        </li>
-        <li>
-          Created, managed, and resolved issues in GitLab and Jira boards to track progress with the team, as well as communicate goals with product and project management.
-        </li>
-      </fragment>
-    </fragment>
-  </fragment>
-  <fragment>
+  </div>
+  <div>
     <h2>
       Projects
     </h2>
@@ -142,12 +208,12 @@ exports[`renders the app correctly 1`] = `
         Mr Blue Sky - 2D Unity Game Project
       </a>
     </li>
-  </fragment>
-  <fragment>
+  </div>
+  <div>
     <h2>
       Skills
     </h2>
-    <fragment>
+    <div>
       <h3>
         Languages
       </h3>
@@ -223,7 +289,7 @@ exports[`renders the app correctly 1`] = `
       <li>
         SQL
       </li>
-    </fragment>
-  </fragment>
+    </div>
+  </div>
 </div>
 `;

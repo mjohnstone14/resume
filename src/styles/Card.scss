@@ -1,33 +1,50 @@
 @import "App.scss";
 
 .Card {
-    --border: solid 1px #d3d3d3;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.04);
-    border: var(--border);
-    background-color: #fff;
-    width: 100%;
+
+    box-shadow: 0px 6px 10px rgba(0,0,0,0.7);
+
+  
+    min-width: 440%;
+    max-width: 440%;
+
+    margin-bottom: 5%;
+
   }
   
   .Card:not(:last-child) {
     border-bottom: none;
+    min-width: 440%;
+    max-width: 440%;
   }
   
   .CardHeader,
   .CardBody {
     padding: 5px 10px;
+    background-color: #ffffff;
   }
   
   .CardHeader {
     cursor: pointer;
-    user-select: none;
-  
+    
+ 
+    background-color: lightgrey;
     display: flex;
     justify-content: space-between;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    &:hover {
+        background-color: darkgrey;
+    }
+
   }
+ 
   
   .CardBody {
     border-top: var(--border);
-  
     font-size: 12px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
   }
   
