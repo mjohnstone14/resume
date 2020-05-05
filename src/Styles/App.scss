@@ -11,11 +11,11 @@ $bold: 500;
 
 body {
   margin: 0;
-  background: #08376d;
+  background: linear-gradient(#ee5450 10%, #c72c41 20%, #801336 26%, #510A32 37%, #2D142C);
   box-sizing: border-box;
   font-family: $sans-serif;
   font-weight: $light;
-  color: whitesmoke;
+  color: black;
   -webkit-text-size-adjust: 100%;
 }
 

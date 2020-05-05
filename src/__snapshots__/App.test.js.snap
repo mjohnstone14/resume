@@ -67,16 +67,18 @@ exports[`renders the app correctly 1`] = `
           onClick={[Function]}
         >
           <h4>
-            Nordstrom, Seattle WA
+            Nordstrom, Seattle WA (Software Engineer, Full-time)
+            <br />
             <span
               className="tabDate"
             >
               August 2019 - Present
             </span>
           </h4>
-          <span>
-            ^
-          </span>
+          <img
+            alt="up"
+            src="up.svg"
+          />
         </div>
         <div
           className="CardBody"
@@ -109,16 +111,18 @@ exports[`renders the app correctly 1`] = `
           onClick={[Function]}
         >
           <h4>
-            Nordstrom, Seattle WA
+            Nordstrom, Seattle WA (Full Stack Intern)
+            <br />
             <span
               className="tabDate"
             >
-              August 2019 - Present
+              May 2019 - August 2019
             </span>
           </h4>
-          <span>
-            v
-          </span>
+          <img
+            alt="down"
+            src="down.svg"
+          />
         </div>
       </div>
       <div
@@ -129,16 +133,18 @@ exports[`renders the app correctly 1`] = `
           onClick={[Function]}
         >
           <h4>
-            Nordstrom, Seattle WA
+            Nordstrom, Seattle WA (Software Engineer Intern)
+            <br />
             <span
               className="tabDate"
             >
-              August 2019 - Present
+              May 2018 - August 2018
             </span>
           </h4>
-          <span>
-            v
-          </span>
+          <img
+            alt="down"
+            src="down.svg"
+          />
         </div>
       </div>
       <div
@@ -149,16 +155,18 @@ exports[`renders the app correctly 1`] = `
           onClick={[Function]}
         >
           <h4>
-            Nordstrom, Seattle WA
+            Studenterhuset, Copenhagen, Denmark (Bar Volunteer)
+            <br />
             <span
               className="tabDate"
             >
-              August 2019 - Present
+              August 2017 - May 2018
             </span>
           </h4>
-          <span>
-            v
-          </span>
+          <img
+            alt="down"
+            src="down.svg"
+          />
         </div>
       </div>
       <div
@@ -169,16 +177,18 @@ exports[`renders the app correctly 1`] = `
           onClick={[Function]}
         >
           <h4>
-            Nordstrom, Seattle WA
+            University of Puget Sound (Accommodations and Disability Tech Specialist)
+            <br />
             <span
               className="tabDate"
             >
               August 2019 - Present
             </span>
           </h4>
-          <span>
-            v
-          </span>
+          <img
+            alt="down"
+            src="down.svg"
+          />
         </div>
       </div>
     </div>

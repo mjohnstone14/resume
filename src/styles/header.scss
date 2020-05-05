@@ -7,7 +7,7 @@
     border: 2px solid black;
     box-shadow: 0px 6px 10px rgba(0,0,0,0.7);
     float: left;
-    border-radius: 15%;
+    border-radius: 20px;
     margin: 1%;
 }
 
@@ -20,9 +20,8 @@
     width: 75%;
     transform: translateY(-40%);
     justify-content: center;
-    border: 2px solid lightgray;
-    border-radius: 26px;
-    box-shadow: 0px 6px 10px rgba(0,0,0,0.7);
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0,0,0.4,0.7);
+    background-color: #801336;
     margin-bottom:0px;
-
 }

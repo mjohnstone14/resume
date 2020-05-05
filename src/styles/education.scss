@@ -3,28 +3,25 @@
 .educationBody {
     display: inline-grid; 
     width: 18%;
-    border: 2px solid black;
-    border-radius: 20px;
     transform: translateY(-7%);
-    background: white;
-    color: black;
+    background: #562654;
     box-shadow: 0px 6px 10px rgba(0,0,0,0.7);
 }
 
 .edTitle {
     display: inline-flex;
-    color: black;
+    color: #bababa;
     margin: 2%;
 }   
 
 .edDescriptionLabel {
     display: inline-block;
-    color: #2F4F4F;
+    color: whitesmoke;
     width: 100%;
     margin: 3%;
 
     &:hover {
-        color: slategray;
+        color: #cecece;
     }
 }
 
@@ -35,7 +32,7 @@
     list-style: none;
     margin-right: 10px;
     vertical-align: middle;
-    color: 	#708090;
+    color: 	whitesmoke;
 }
 
 .ul {
