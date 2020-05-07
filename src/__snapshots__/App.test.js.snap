@@ -4,302 +4,336 @@ exports[`renders the app correctly 1`] = `
 <div
   className="body"
 >
-  <img
-    alt="Marwan Johnstone"
-    className="avatar"
-    src="me.png"
-  />
-  <h2
-    className="title"
+  <section
+    className="wrapper"
   >
-    Marwan Johnstone
-  </h2>
-  <div
-    className="educationBody"
-  >
-    <h2
-      className="edTitle"
+    <div
+      className="row"
     >
-      Education
-    </h2>
-    <div>
-      <a
-        href="https://www.pugetsound.edu/"
+      <img
+        alt="Marwan Johnstone"
+        className="avatar"
+        src="me.png"
+      />
+      <h2
+        className="title"
       >
-        <h3
-          className="edDescriptionLabel"
+        Marwan Johnstone
+      </h2>
+      <div
+        className="iconPadding"
+      >
+        <a
+          href="https://www.linkedin.com/in/mjohnstone14/"
         >
-          University of Puget Sound
-        </h3>
-      </a>
-      <li
-        className="edDescription"
+          <img
+            alt="linkedin"
+            className="icon"
+            src="linkedin-tile.svg"
+          />
+        </a>
+        <a
+          href="https://github.com/mjohnstone14"
+        >
+          <img
+            alt="github"
+            className="icon"
+            src="github.svg"
+          />
+        </a>
+      </div>
+      <div
+        className="educationBody"
       >
-        August 2015 - May 2019
-      </li>
+        <h2
+          className="edTitle"
+        >
+          Education
+        </h2>
+        <div>
+          <a
+            href="https://www.pugetsound.edu/"
+          >
+            <h3
+              className="edDescriptionLabel"
+            >
+              University of Puget Sound
+            </h3>
+          </a>
+          <li
+            className="edDescription"
+          >
+            August 2015 - May 2019
+          </li>
+        </div>
+        <div>
+          <a
+            href="https://disabroad.org/copenhagen/"
+          >
+            <h3
+              className="edDescriptionLabel"
+            >
+              DIS Denmark, Copenhagen
+            </h3>
+          </a>
+          <li
+            className="edDescription"
+          >
+            August 2017 - May 2018
+          </li>
+        </div>
+      </div>
+      <div
+        className="experience"
+      >
+        <div>
+          <div
+            className="Card"
+          >
+            <div
+              className="CardHeader"
+              onClick={[Function]}
+            >
+              <h4>
+                Nordstrom, Seattle WA (Software Engineer, Full-time)
+                <br />
+                <span
+                  className="tabDate"
+                >
+                  August 2019 - Present
+                </span>
+              </h4>
+              <img
+                alt="up"
+                src="up.svg"
+              />
+            </div>
+            <div
+              className="CardBody"
+            >
+              <li>
+                Developed and continuously deployed an internal applications tool designed to process and inspect product returns in Nordstrom stores, inventory facilities, and fulfillment centers that would save ~$14.5M projected expenses for the company in 2020.
+              </li>
+              <li>
+                Developed front-end facing applications designed to work on a company-wide scale using React Hooks, Sass, and Java Spring API
+              </li>
+              <li>
+                Maintained a Java Spring API running on Kubernetes, added and exposed endpoints that filtered and managed data from DynamoDB and other calls to company services.
+              </li>
+              <li>
+                Reviewed project user interface code, incorporated automated testing with Jest, logging, and refactored and reimplemented parts of the React UI.
+              </li>
+              <li>
+                Utilized Sass along with React Hooks to design interactive UIs, used Zeplin overlay to review and match the UI to company requirements
+              </li>
+              <li>
+                Created, managed, and resolved issues in GitLab and Jira boards to track progress with the team, as well as communicate goals with product and project management.
+              </li>
+            </div>
+          </div>
+          <div
+            className="Card"
+          >
+            <div
+              className="CardHeader"
+              onClick={[Function]}
+            >
+              <h4>
+                Nordstrom, Seattle WA (Full Stack Intern)
+                <br />
+                <span
+                  className="tabDate"
+                >
+                  May 2019 - August 2019
+                </span>
+              </h4>
+              <img
+                alt="down"
+                src="down.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="Card"
+          >
+            <div
+              className="CardHeader"
+              onClick={[Function]}
+            >
+              <h4>
+                Nordstrom, Seattle WA (Software Engineer Intern)
+                <br />
+                <span
+                  className="tabDate"
+                >
+                  May 2018 - August 2018
+                </span>
+              </h4>
+              <img
+                alt="down"
+                src="down.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="Card"
+          >
+            <div
+              className="CardHeader"
+              onClick={[Function]}
+            >
+              <h4>
+                Studenterhuset, Copenhagen, Denmark (Bar Volunteer)
+                <br />
+                <span
+                  className="tabDate"
+                >
+                  August 2017 - May 2018
+                </span>
+              </h4>
+              <img
+                alt="down"
+                src="down.svg"
+              />
+            </div>
+          </div>
+          <div
+            className="Card"
+          >
+            <div
+              className="CardHeader"
+              onClick={[Function]}
+            >
+              <h4>
+                University of Puget Sound (Accommodations and Disability Tech Specialist)
+                <br />
+                <span
+                  className="tabDate"
+                >
+                  August 2019 - Present
+                </span>
+              </h4>
+              <img
+                alt="down"
+                src="down.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="projectBody"
+      >
+        <h2>
+          Projects
+        </h2>
+        <li>
+          <a
+            href="https://linkedin.com/in/mjohnstone14"
+          >
+            My LinkedIn
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://mjohnstone.itch.io/red-blood-cell-shooter"
+          >
+            Blood Cell Shooter - Unity Video Game Project
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://mjohnstone.itch.io/mr-bluesky"
+          >
+            Mr Blue Sky - 2D Unity Game Project
+          </a>
+        </li>
+      </div>
+      <div
+        className="skillsBody"
+      >
+        <h2>
+          Skills
+        </h2>
+        <div>
+          <h3>
+            Languages
+          </h3>
+          <li>
+            English - Native
+          </li>
+          <li>
+            Arabic - Native
+          </li>
+          <li>
+            Danish - Beginner
+          </li>
+          <h3>
+            Frameworks and Tools
+          </h3>
+          <li>
+            AWS
+          </li>
+          <li>
+            GitLab, GitHub
+          </li>
+          <li>
+            Swagger UI
+          </li>
+          <li>
+            SpringBoot
+          </li>
+          <li>
+            Jest
+          </li>
+          <li>
+            Kubernetes
+          </li>
+          <li>
+            Maven/Gradle
+          </li>
+          <li>
+            Kafka Streams
+          </li>
+          <li>
+            Unity
+          </li>
+          <li>
+            Docker
+          </li>
+          <h3>
+            Programming Languages
+          </h3>
+          <li>
+            JavaScript
+          </li>
+          <li>
+            React
+          </li>
+          <li>
+            Angular
+          </li>
+          <li>
+            Node.js
+          </li>
+          <li>
+            Java
+          </li>
+          <li>
+            Python
+          </li>
+          <li>
+            C#
+          </li>
+          <li>
+            Sass
+          </li>
+          <li>
+            SQL
+          </li>
+        </div>
+      </div>
     </div>
-    <div>
-      <a
-        href="https://disabroad.org/copenhagen/"
-      >
-        <h3
-          className="edDescriptionLabel"
-        >
-          DIS Denmark, Copenhagen
-        </h3>
-      </a>
-      <li
-        className="edDescription"
-      >
-        August 2017 - May 2018
-      </li>
-    </div>
-  </div>
-  <div
-    className="experience"
-  >
-    <div>
-      <div
-        className="Card"
-      >
-        <div
-          className="CardHeader"
-          onClick={[Function]}
-        >
-          <h4>
-            Nordstrom, Seattle WA (Software Engineer, Full-time)
-            <br />
-            <span
-              className="tabDate"
-            >
-              August 2019 - Present
-            </span>
-          </h4>
-          <img
-            alt="up"
-            src="up.svg"
-          />
-        </div>
-        <div
-          className="CardBody"
-        >
-          <li>
-            Developed and continuously deployed an internal applications tool designed to process and inspect product returns in Nordstrom stores, inventory facilities, and fulfillment centers that would save ~$14.5M projected expenses for the company in 2020.
-          </li>
-          <li>
-            Developed front-end facing applications designed to work on a company-wide scale using React Hooks, Sass, and Java Spring API
-          </li>
-          <li>
-            Maintained a Java Spring API running on Kubernetes, added and exposed endpoints that filtered and managed data from DynamoDB and other calls to company services.
-          </li>
-          <li>
-            Reviewed project user interface code, incorporated automated testing with Jest, logging, and refactored and reimplemented parts of the React UI.
-          </li>
-          <li>
-            Utilized Sass along with React Hooks to design interactive UIs, used Zeplin overlay to review and match the UI to company requirements
-          </li>
-          <li>
-            Created, managed, and resolved issues in GitLab and Jira boards to track progress with the team, as well as communicate goals with product and project management.
-          </li>
-        </div>
-      </div>
-      <div
-        className="Card"
-      >
-        <div
-          className="CardHeader"
-          onClick={[Function]}
-        >
-          <h4>
-            Nordstrom, Seattle WA (Full Stack Intern)
-            <br />
-            <span
-              className="tabDate"
-            >
-              May 2019 - August 2019
-            </span>
-          </h4>
-          <img
-            alt="down"
-            src="down.svg"
-          />
-        </div>
-      </div>
-      <div
-        className="Card"
-      >
-        <div
-          className="CardHeader"
-          onClick={[Function]}
-        >
-          <h4>
-            Nordstrom, Seattle WA (Software Engineer Intern)
-            <br />
-            <span
-              className="tabDate"
-            >
-              May 2018 - August 2018
-            </span>
-          </h4>
-          <img
-            alt="down"
-            src="down.svg"
-          />
-        </div>
-      </div>
-      <div
-        className="Card"
-      >
-        <div
-          className="CardHeader"
-          onClick={[Function]}
-        >
-          <h4>
-            Studenterhuset, Copenhagen, Denmark (Bar Volunteer)
-            <br />
-            <span
-              className="tabDate"
-            >
-              August 2017 - May 2018
-            </span>
-          </h4>
-          <img
-            alt="down"
-            src="down.svg"
-          />
-        </div>
-      </div>
-      <div
-        className="Card"
-      >
-        <div
-          className="CardHeader"
-          onClick={[Function]}
-        >
-          <h4>
-            University of Puget Sound (Accommodations and Disability Tech Specialist)
-            <br />
-            <span
-              className="tabDate"
-            >
-              August 2019 - Present
-            </span>
-          </h4>
-          <img
-            alt="down"
-            src="down.svg"
-          />
-        </div>
-      </div>
-    </div>
-  </div>
-  <div>
-    <h2>
-      Projects
-    </h2>
-    <li>
-      <a
-        href="https://linkedin.com/in/mjohnstone14"
-      >
-        My LinkedIn
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://mjohnstone.itch.io/red-blood-cell-shooter"
-      >
-        Blood Cell Shooter - Unity Video Game Project
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://mjohnstone.itch.io/mr-bluesky"
-      >
-        Mr Blue Sky - 2D Unity Game Project
-      </a>
-    </li>
-  </div>
-  <div>
-    <h2>
-      Skills
-    </h2>
-    <div>
-      <h3>
-        Languages
-      </h3>
-      <li>
-        English - Native
-      </li>
-      <li>
-        Arabic - Native
-      </li>
-      <li>
-        Danish - Beginner
-      </li>
-      <h3>
-        Frameworks and Tools
-      </h3>
-      <li>
-        AWS
-      </li>
-      <li>
-        GitLab, GitHub
-      </li>
-      <li>
-        Swagger UI
-      </li>
-      <li>
-        SpringBoot
-      </li>
-      <li>
-        Jest
-      </li>
-      <li>
-        Kubernetes
-      </li>
-      <li>
-        Maven/Gradle
-      </li>
-      <li>
-        Kafka Streams
-      </li>
-      <li>
-        Unity
-      </li>
-      <li>
-        Docker
-      </li>
-      <h3>
-        Programming Languages
-      </h3>
-      <li>
-        JavaScript
-      </li>
-      <li>
-        React
-      </li>
-      <li>
-        Angular
-      </li>
-      <li>
-        Node.js
-      </li>
-      <li>
-        Java
-      </li>
-      <li>
-        Python
-      </li>
-      <li>
-        C#
-      </li>
-      <li>
-        Sass
-      </li>
-      <li>
-        SQL
-      </li>
-    </div>
-  </div>
+  </section>
 </div>
 `;

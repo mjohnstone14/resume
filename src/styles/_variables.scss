@@ -1,0 +1,10 @@
+//grid variables
+$grid-columns: 5;
+$grid-max-width: 65em;
+
+//breakpoints
+
+$breakpoint-phone: "only screen and (max-device-width: 480px) and (orientation: portrait)";
+$breakpoint-ipad: "only screen and (min-width: 768px)";
+$breakpoint-ipad-pro: "only screen and (min-width: 1024px)";
+$breakpoint-large: "only screen and (min-width: 1600px)";

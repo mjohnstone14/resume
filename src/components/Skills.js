@@ -1,8 +1,8 @@
 import React from 'react'
-
+import '../styles/skills.scss';
 const Skills = () => {
     return (
-        <div>
+        <div className="skillsBody">
             <h2>Skills</h2>
             <div>
                 <h3>Languages</h3>
@@ -22,7 +22,7 @@ const Skills = () => {
                 <li>Docker</li>
                 <h3>Programming Languages</h3>
                 <li>JavaScript</li>
-                <li>React</li>
+                <li>React</li>  
                 <li>Angular</li>
                 <li>Node.js</li>
                 <li>Java</li>
