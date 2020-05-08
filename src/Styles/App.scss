@@ -24,6 +24,14 @@ body {
   font-weight: $light;
   color: black;
   -webkit-text-size-adjust: 100%;
+
+  body:after {
+    background-image: url('../images/kevin-angelso-uWCYLWxfKX8-unsplash.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
 }
 
 * {

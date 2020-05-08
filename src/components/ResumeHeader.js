@@ -11,7 +11,7 @@ const ResumeHeader = () => {
             <h2 className="title">Marwan Johnstone</h2>
             <div className="iconPadding">
                 <a href="https://www.linkedin.com/in/mjohnstone14/"><img src={linkedIn} alt="linkedin" className="icon"/></a>
-                <a href="https://github.com/mjohnstone14"><img src={github} alt="github" className="icon"/></a>
+                <a href="https://github.com/mjohnstone14"><img rel="preload" src={github} alt="github" className="icon"/></a>
             </div>     
       </Fragment>
       
