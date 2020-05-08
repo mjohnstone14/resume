@@ -10,12 +10,14 @@ const Education = () => {
                     <h3 className="edDescriptionLabel">University of Puget Sound</h3>
                 </a>      
                 <li className="edDescription">August 2015 - May 2019</li>
+                <li className="edDescription">Bachelor of Science - Computer Science</li>
             </div>
             <div>
                 <a href="https://disabroad.org/copenhagen/">
                     <h3 className="edDescriptionLabel">DIS Denmark, Copenhagen</h3>
                 </a> 
                 <li className="edDescription">August 2017 - May 2018</li>
+                <li className="edDescription">Study Abroad Program</li>
             </div>     
         </div>
     )
