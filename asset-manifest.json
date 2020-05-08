@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/resume-spa/static/css/main.fbd1795e.chunk.css",
-    "main.js": "/resume-spa/static/js/main.895ffa0b.chunk.js",
-    "main.js.map": "/resume-spa/static/js/main.895ffa0b.chunk.js.map",
-    "runtime-main.js": "/resume-spa/static/js/runtime-main.50466255.js",
-    "runtime-main.js.map": "/resume-spa/static/js/runtime-main.50466255.js.map",
-    "static/js/2.ce779bab.chunk.js": "/resume-spa/static/js/2.ce779bab.chunk.js",
-    "static/js/2.ce779bab.chunk.js.map": "/resume-spa/static/js/2.ce779bab.chunk.js.map",
-    "index.html": "/resume-spa/index.html",
-    "precache-manifest.2c9704c9083b878e3dbf5cb8b1ff09b4.js": "/resume-spa/precache-manifest.2c9704c9083b878e3dbf5cb8b1ff09b4.js",
-    "service-worker.js": "/resume-spa/service-worker.js",
-    "static/css/main.fbd1795e.chunk.css.map": "/resume-spa/static/css/main.fbd1795e.chunk.css.map",
-    "static/js/2.ce779bab.chunk.js.LICENSE.txt": "/resume-spa/static/js/2.ce779bab.chunk.js.LICENSE.txt",
-    "static/media/skills.scss": "/resume-spa/static/media/kevin-angelso-uWCYLWxfKX8-unsplash.6ad17d6d.jpg",
-    "static/media/down.svg": "/resume-spa/static/media/down.546a233f.svg",
-    "static/media/github.svg": "/resume-spa/static/media/github.4b0b1f14.svg",
-    "static/media/linkedin-tile.svg": "/resume-spa/static/media/linkedin-tile.33a229d6.svg",
-    "static/media/me.png": "/resume-spa/static/media/me.6cefb20f.png",
-    "static/media/up.svg": "/resume-spa/static/media/up.d63addad.svg"
+    "main.css": "/resume/static/css/main.d749bdd7.chunk.css",
+    "main.js": "/resume/static/js/main.648335ee.chunk.js",
+    "main.js.map": "/resume/static/js/main.648335ee.chunk.js.map",
+    "runtime-main.js": "/resume/static/js/runtime-main.703665c2.js",
+    "runtime-main.js.map": "/resume/static/js/runtime-main.703665c2.js.map",
+    "static/js/2.ce779bab.chunk.js": "/resume/static/js/2.ce779bab.chunk.js",
+    "static/js/2.ce779bab.chunk.js.map": "/resume/static/js/2.ce779bab.chunk.js.map",
+    "index.html": "/resume/index.html",
+    "precache-manifest.4b477cad6673460af36dd6e9850a011c.js": "/resume/precache-manifest.4b477cad6673460af36dd6e9850a011c.js",
+    "service-worker.js": "/resume/service-worker.js",
+    "static/css/main.d749bdd7.chunk.css.map": "/resume/static/css/main.d749bdd7.chunk.css.map",
+    "static/js/2.ce779bab.chunk.js.LICENSE.txt": "/resume/static/js/2.ce779bab.chunk.js.LICENSE.txt",
+    "static/media/skills.scss": "/resume/static/media/kevin-angelso-uWCYLWxfKX8-unsplash.6ad17d6d.jpg",
+    "static/media/down.svg": "/resume/static/media/down.546a233f.svg",
+    "static/media/github.svg": "/resume/static/media/github.4b0b1f14.svg",
+    "static/media/linkedin-tile.svg": "/resume/static/media/linkedin-tile.33a229d6.svg",
+    "static/media/me.png": "/resume/static/media/me.6cefb20f.png",
+    "static/media/up.svg": "/resume/static/media/up.d63addad.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.50466255.js",
+    "static/js/runtime-main.703665c2.js",
     "static/js/2.ce779bab.chunk.js",
-    "static/css/main.fbd1795e.chunk.css",
-    "static/js/main.895ffa0b.chunk.js"
+    "static/css/main.d749bdd7.chunk.css",
+    "static/js/main.648335ee.chunk.js"
   ]
 }
