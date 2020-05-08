@@ -13,6 +13,7 @@ exports[`renders the app correctly 1`] = `
       <img
         alt="Marwan Johnstone"
         className="avatar"
+        rel="preload"
         src="me.png"
       />
       <h2
