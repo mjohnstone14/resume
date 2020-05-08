@@ -65,6 +65,11 @@ exports[`renders the app correctly 1`] = `
           >
             August 2015 - May 2019
           </li>
+          <li
+            className="edDescription"
+          >
+            Bachelor of Science - Computer Science
+          </li>
         </div>
         <div>
           <a
@@ -80,6 +85,11 @@ exports[`renders the app correctly 1`] = `
             className="edDescription"
           >
             August 2017 - May 2018
+          </li>
+          <li
+            className="edDescription"
+          >
+            Study Abroad Program
           </li>
         </div>
       </div>
@@ -234,9 +244,9 @@ exports[`renders the app correctly 1`] = `
         >
           <li>
             <a
-              href="https://linkedin.com/in/mjohnstone14"
+              href="https://github.com/nick-bigger/MoG-Kiosk"
             >
-              My LinkedIn
+              Tacoma Museum of Glass Android Kiosk Application
             </a>
           </li>
           <li>
