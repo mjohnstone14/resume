@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.d749bdd7.chunk.css",
-    "main.js": "/resume/static/js/main.648335ee.chunk.js",
-    "main.js.map": "/resume/static/js/main.648335ee.chunk.js.map",
+    "main.css": "/resume/static/css/main.d469d47c.chunk.css",
+    "main.js": "/resume/static/js/main.ebe529c2.chunk.js",
+    "main.js.map": "/resume/static/js/main.ebe529c2.chunk.js.map",
     "runtime-main.js": "/resume/static/js/runtime-main.703665c2.js",
     "runtime-main.js.map": "/resume/static/js/runtime-main.703665c2.js.map",
     "static/js/2.ce779bab.chunk.js": "/resume/static/js/2.ce779bab.chunk.js",
     "static/js/2.ce779bab.chunk.js.map": "/resume/static/js/2.ce779bab.chunk.js.map",
     "index.html": "/resume/index.html",
-    "precache-manifest.4b477cad6673460af36dd6e9850a011c.js": "/resume/precache-manifest.4b477cad6673460af36dd6e9850a011c.js",
+    "precache-manifest.a089ba72aef8ade77f0bfb2b59c1a9a7.js": "/resume/precache-manifest.a089ba72aef8ade77f0bfb2b59c1a9a7.js",
     "service-worker.js": "/resume/service-worker.js",
-    "static/css/main.d749bdd7.chunk.css.map": "/resume/static/css/main.d749bdd7.chunk.css.map",
+    "static/css/main.d469d47c.chunk.css.map": "/resume/static/css/main.d469d47c.chunk.css.map",
     "static/js/2.ce779bab.chunk.js.LICENSE.txt": "/resume/static/js/2.ce779bab.chunk.js.LICENSE.txt",
     "static/media/skills.scss": "/resume/static/media/kevin-angelso-uWCYLWxfKX8-unsplash.6ad17d6d.jpg",
     "static/media/down.svg": "/resume/static/media/down.546a233f.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.703665c2.js",
     "static/js/2.ce779bab.chunk.js",
-    "static/css/main.d749bdd7.chunk.css",
-    "static/js/main.648335ee.chunk.js"
+    "static/css/main.d469d47c.chunk.css",
+    "static/js/main.ebe529c2.chunk.js"
   ]
 }
