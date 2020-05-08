@@ -2,8 +2,8 @@
 
 .Card {
     box-shadow: 0px 6px 10px rgba(0,0,0,0.7);
-    border: 2px solid #562654;
-    background-color: #2D142C;
+  //  border: 1px solid #32407b;
+    background-color: rgba(#151965, 0.7);
     color: whitesmoke;
   }
   .Card:first-child {
@@ -32,7 +32,7 @@
     color: whitesmoke;
   }
   .CardHeader:hover {
-    background-color: #562654;
+    background-color: rgba(#46b5d1, 0.7);
   }
 
   .CardBody {

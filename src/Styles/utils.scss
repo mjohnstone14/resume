@@ -1,2 +1,17 @@
 @import '~open-color/open-color';
 @import '~include-media/dist/include-media';
+
+@font-face {
+    font-family: 'TitilliumWeb';
+    src: local('TitilliumWeb'), url(../fonts/TitilliumWeb-Regular.ttf) format('truetype');
+  }
+
+@font-face {
+    font-family: 'TitilliumWeb-Bold';
+    src: local('TitillumWeb-Bold'), url(../fonts/TitilliumWeb-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'TilliumWeb-Italic';
+    src: local('TitilliumWeb-Italic'), url(../fonts/TitilliumWeb-Italic.ttf) format('truetype');
+}

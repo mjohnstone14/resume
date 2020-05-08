@@ -27,7 +27,7 @@ const resumeContent = [
       bullet: 'Part of a volunteer crew of international students and Danes that would help the bar employees at Studenterhuset make drinks, maintain the bar, make sales and manage events.'
   },  {
       title: 'University of Puget Sound (Accommodations and Disability Tech Specialist)',
-      date: 'August 2019 - Present',
+      date: 'August 2015 - May 2017',
       bullet: 'Had multiple responsibilities that involved being a confidential student liaison for students with disabilities. Some of my tasks included speaking with disabled students and helping them with any technological needs or accommodations that they might have. One of my biggest responsibilities was coordinating a team of other workers to help scan physical copies of books into digital e-books. '
   }
   ];

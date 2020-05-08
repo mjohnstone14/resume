@@ -2,7 +2,19 @@
 
 .skillsBody {
     color: white;
-    background: #562654;
+    background: rgba(#46b5d1, 0.7);
     box-shadow: 0px 6px 10px rgba(0,0,0,0.7);
     margin: 1%;
+}
+
+.skillsList {
+    margin-left: 3%;
+}
+
+.skillsTitle {
+    margin-left: 1%;
+}
+
+.skillsSubtitle {
+    margin-left: 2%;
 }

@@ -210,7 +210,7 @@ exports[`renders the app correctly 1`] = `
                 <span
                   className="tabDate"
                 >
-                  August 2019 - Present
+                  August 2015 - May 2017
                 </span>
               </h4>
               <img
@@ -224,113 +224,135 @@ exports[`renders the app correctly 1`] = `
       <div
         className="projectBody"
       >
-        <h2>
+        <h2
+          className="projectTitle"
+        >
           Projects
         </h2>
-        <li>
-          <a
-            href="https://linkedin.com/in/mjohnstone14"
-          >
-            My LinkedIn
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://mjohnstone.itch.io/red-blood-cell-shooter"
-          >
-            Blood Cell Shooter - Unity Video Game Project
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://mjohnstone.itch.io/mr-bluesky"
-          >
-            Mr Blue Sky - 2D Unity Game Project
-          </a>
-        </li>
+        <div
+          className="projectList"
+        >
+          <li>
+            <a
+              href="https://linkedin.com/in/mjohnstone14"
+            >
+              My LinkedIn
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://mjohnstone.itch.io/red-blood-cell-shooter"
+            >
+              Blood Cell Shooter - Unity Video Game Project
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://mjohnstone.itch.io/mr-bluesky"
+            >
+              Mr Blue Sky - 2D Unity Game Project
+            </a>
+          </li>
+        </div>
       </div>
       <div
         className="skillsBody"
       >
-        <h2>
+        <h2
+          className="skillsTitle"
+        >
           Skills
         </h2>
-        <div>
+        <div
+          className="skillsSubtitle"
+        >
           <h3>
             Languages
           </h3>
-          <li>
-            English - Native
-          </li>
-          <li>
-            Arabic - Native
-          </li>
-          <li>
-            Danish - Beginner
-          </li>
+          <div
+            className="skillsList"
+          >
+            <li>
+              English - Native
+            </li>
+            <li>
+              Arabic - Native
+            </li>
+            <li>
+              Danish - Beginner
+            </li>
+          </div>
           <h3>
             Frameworks and Tools
           </h3>
-          <li>
-            AWS
-          </li>
-          <li>
-            GitLab, GitHub
-          </li>
-          <li>
-            Swagger UI
-          </li>
-          <li>
-            SpringBoot
-          </li>
-          <li>
-            Jest
-          </li>
-          <li>
-            Kubernetes
-          </li>
-          <li>
-            Maven/Gradle
-          </li>
-          <li>
-            Kafka Streams
-          </li>
-          <li>
-            Unity
-          </li>
-          <li>
-            Docker
-          </li>
+          <div
+            className="skillsList"
+          >
+            <li>
+              AWS
+            </li>
+            <li>
+              GitLab, GitHub
+            </li>
+            <li>
+              Swagger UI
+            </li>
+            <li>
+              SpringBoot
+            </li>
+            <li>
+              Jest
+            </li>
+            <li>
+              Kubernetes
+            </li>
+            <li>
+              Maven/Gradle
+            </li>
+            <li>
+              Kafka Streams
+            </li>
+            <li>
+              Unity
+            </li>
+            <li>
+              Docker
+            </li>
+          </div>
           <h3>
             Programming Languages
           </h3>
-          <li>
-            JavaScript
-          </li>
-          <li>
-            React
-          </li>
-          <li>
-            Angular
-          </li>
-          <li>
-            Node.js
-          </li>
-          <li>
-            Java
-          </li>
-          <li>
-            Python
-          </li>
-          <li>
-            C#
-          </li>
-          <li>
-            Sass
-          </li>
-          <li>
-            SQL
-          </li>
+          <div
+            className="skillsList"
+          >
+            <li>
+              JavaScript
+            </li>
+            <li>
+              React
+            </li>
+            <li>
+              Angular
+            </li>
+            <li>
+              Node.js
+            </li>
+            <li>
+              Java
+            </li>
+            <li>
+              Python
+            </li>
+            <li>
+              C#
+            </li>
+            <li>
+              Sass
+            </li>
+            <li>
+              SQL
+            </li>
+          </div>
         </div>
       </div>
     </div>

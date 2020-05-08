@@ -4,6 +4,8 @@ $sans-serif: "Source Sans Pro", Roboto, Verdana, sans-serif;
 $serif: Merriweather, Georgia, "Times New Roman", serif;
 $mono: "Source Code Pro", Courier, mono;
 
+
+
 $light: 200;
 $normal: 300;
 $semibold: 400;
@@ -11,14 +13,14 @@ $bold: 500;
 
 body {
   margin: 0;
-  background: linear-gradient(#ee5450 10%, #c72c41 20%, #801336 26%, #510A32 37%, #2D142C);
+  background: #151965;
   background-image: url('../images/kevin-angelso-uWCYLWxfKX8-unsplash.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   box-sizing: border-box;
-  font-family: $sans-serif;
+  font-family: TitilliumWeb, Arial, sans-serif;
   font-weight: $light;
   color: black;
   -webkit-text-size-adjust: 100%;
@@ -26,4 +28,11 @@ body {
 
 * {
   box-sizing: inherit;
+}
+
+a {
+  color: white;
+}
+a:hover, a:active, a:focus {
+  color: grey;
 }

@@ -2,9 +2,17 @@
 
 .projectBody {
     color: white;
-    background: #562654;
+    background: rgba(#515585, 0.7);
     box-shadow: 0px 6px 10px rgba(0,0,0,0.7);
     margin: 1%;
     margin-top: 3%;
     margin-bottom: 3%;
+}
+
+.projectList {
+    margin-left: 3%;
+}
+
+.projectTitle {
+    margin-left: 1%;
 }
